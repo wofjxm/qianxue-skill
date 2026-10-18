@@ -50,21 +50,23 @@ bash /d/workbuddy/skill/_sync_skills.sh restore  # 归档 → 恢复到本机技
 - 标 ✅ 的已把实际提示词/流程写进 SKILL.md，可直接用；
 - 标「占位」的只保留了飞书源链接 + 获取原包的方法，需在能登录飞书的设备下载后放进对应目录覆盖说明。
 
+**2026-10-18 补全记录**：用户登录飞书后，用 Chrome 自动化（chrome-browser-automation 技能，Playwright 驱动系统 Chrome + 持久登录态）重新抓取了 4 个此前失败的文档——03（PDF 19 页全文 + 部署配置/脚本）、08（附件 md 全文）、10（DOCX 指南 + 77MB 源码 zip）、13（SSR shadow-DOM 里的提示词全文），均已写成完整技能并安装到本机。
+
 | # | 技能目录 | 名称 | 完整度 | 类别 |
 |---|----------|------|--------|------|
 | 01 | 01-codex-psd-layered | Codex PSD 图片分层 | 占位（飞书附件） | 图像 |
 | 02 | 02-codex-video-short-3pack | Codex 自媒体短视频 3 包 | ✅ 说明/安装法 | 视频 |
-| 03 | 03-workbuddy-obsidian-ai-agent | WorkBuddy+Obsidian AI 经纪人 | 占位（PDF 附件） | 效率 |
+| 03 | 03-workbuddy-obsidian-ai-agent | WorkBuddy+Obsidian AI 经纪人 | ✅ 完整（含 7 份配置+4 脚本+plist） | 效率 |
 | 04 | 04-codex-media-skill-addresses | Codex 自媒体 Skill 地址 | ✅ GitHub 地址 | 视频 |
 | 05 | 05-workbuddy-four-step-setup | WorkBuddy 四步提效设置 | ✅ 含模板 | 设置 |
 | 06 | 06-three-awesome-plugins | 三个神级 skill 插件 | ✅ GitHub 地址 | 效率 |
 | 07 | 07-animation-plugin-pack | 动画插件 skill 包地址 | 占位（链接型） | 视频 |
-| 08 | 08-obsidian-workbuddy-setup | Obsidian+WorkBuddy 搭建流程 | 占位（空文档） | 效率 |
+| 08 | 08-obsidian-workbuddy-setup | Obsidian+WorkBuddy 搭建流程 | ✅ 完整教程+第二大脑方法论 | 效率 |
 | 09 | 09-meishang-skill-pack | 美商 skill 包 | 占位（链接型） | 电商 |
-| 10 | 10-openmontage-guide | OpenMontage 部署指南 | 占位（附件） | 视频 |
+| 10 | 10-openmontage-guide | OpenMontage 部署指南 | ✅ 完整（含 77MB 源码包，git 排除本机留存） | 视频 |
 | 11 | 11-workbuddy-10-skills-guide | WorkBuddy 10 个 Skill 清单 | ✅ 选型链路 | 效率 |
 | 12 | 12-workbuddy-instruction-template | WorkBuddy 自定义指令模板 | ✅ 指令原文 | 设置 |
-| 13 | 13-portfolio-website-prompt | 高端个人作品集网站提示词 | 需登录 | 图像 |
+| 13 | 13-portfolio-website-prompt | 高端个人作品集网站提示词 | ✅ 提示词+六步流程 | 图像 |
 | 14 | 14-compound-os-life-workbench | COMPOUND.OS 人生工作台 | ✅ 思路/技术栈 | 效率 |
 | 15 | 15-depth-video-motion-migration | 深度视频动作迁移提示词 | ✅ 提示词 | 视频 |
 | 16 | 16-ai-one-click-video-edit | 千雪 AI 一键剪辑资料包 | ✅ 能力说明 | 视频 |

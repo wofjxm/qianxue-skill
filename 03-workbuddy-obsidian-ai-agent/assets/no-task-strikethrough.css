@@ -1,0 +1,39 @@
+/* no-task-strikethrough.css
+   作用：任务勾选后去掉删除线，只保留打勾视觉。
+   没有它，「已处理」的灵感行会被划掉很难看。
+   放置位置：<vault>/.obsidian/snippets/no-task-strikethrough.css
+   启用：设置 → 外观 → CSS 代码片段 → 刷新 → 打开 no-task-strikethrough 开关 */
+
+body {
+  --checklist-done-decoration: normal;
+  --checklist-done-color: var(--text-muted);
+  --checklist-done-opacity: 0.6;
+}
+
+.markdown-rendered .task-list-item.is-checked,
+.markdown-rendered .task-list-item.is-checked p,
+.markdown-rendered .task-list-item.is-checked * {
+  text-decoration: none !important;
+}
+
+.HyperMD-task-line[data-task="x"],
+.HyperMD-task-line[data-task="x"] * {
+  text-decoration: none !important;
+}
+
+.task-list-item.is-checked s,
+.task-list-item.is-checked del,
+.HyperMD-task-line[data-task="x"] s,
+.HyperMD-task-line[data-task="x"] del {
+  text-decoration: none !important;
+}
+
+.task-list-item.is-checked {
+  color: var(--text-muted) !important;
+  opacity: 0.6;
+}
+
+.HyperMD-task-line[data-task="x"] {
+  color: var(--text-muted) !important;
+  opacity: 0.6;
+}

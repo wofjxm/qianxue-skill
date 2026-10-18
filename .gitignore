@@ -1,0 +1,4 @@
+# 大文件与缓存不进 git（源码包 77MB，本机留存；公开源见 SKILL.md 中 GitHub 链接）
+10-openmontage-guide/assets/*.zip
+**/__pycache__/
+*.pyc
